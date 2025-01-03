@@ -1,0 +1,5 @@
+demo_UART_lengthMeter is een afbeelding van een test (in Putty) van UART_lengthMeter. Deze laatste is dan ook de te gebruiken file voor het lengtemeterproject.
+
+learn_UART is een uitprobeerfile van UART, volgens de tutorial van https://electrocredible.com/raspberry-pi-pico-serial-uart-micropython/.
+
+functions_lengthMeter is exact dezelfde file als lengthMeter_webControlled, die in de eerdere 'webServer'-file ingeladen werd. functions_lengthMeter wordt in UART_lengthMeter ingeladen. De naam functions_lengthMeter is meer algemeen (en kan inderdaad ook voor elke communicatievorm(file) dienen) en eigenlijk een vervanging van lengthMeter_webControlled (toen ik niet had stilgestaan bij het feit dat de file algemeen bruikbaar is). Omdat deze in een main file in te laden file op de pico geladen moet worden, is het handiger om dezelfde te gebruiken voor alle communicatievormen.
