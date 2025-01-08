@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body style="max-width: max-content; margin: auto; text-align: center; font-family: Verdana">
+        <h1 style="padding-top: 50px">BeWell Kiosk</h1>
+        <h3 style="padding-bottom: 50px">Lengtemeting</h3>
+        <form action="./calibrate" style="display: inline-block">
+            <input type="submit" value="Calibrate" style="font-size: 16px; margin: 4px 2px; cursor: pointer; background-color: #04AA6D; border: none; color: white; padding: 15px 32px"/>
+        </form>
+        <form action="./measure" style="display: inline-block">
+            <input type="submit" value="Measure" style="font-size: 16px; margin: 4px 2px; cursor: pointer; background-color: #04AA6D; border: none; color: white; padding: 15px 32px"/>
+        </form>
+        <form action="./advanced_measure" style="display: inline-block">
+            <input type="submit" value="Advanced measure" style="font-size: 16px; margin: 4px 2px; cursor: pointer; background-color: #04AA6D; border: none; color: white; padding: 15px 32px"/>
+        </form>
+        <form action="./close" style="display: inline-block">
+            <input type="submit" value="Stop server" style="font-size: 16px; margin: 4px 2px; cursor: pointer; background-color: #ff1447; border: none; color: white; padding: 15px 32px"/>
+        </form>
+        <div style="display: flex; padding-top: 150px; padding-bottom: 50px">
+            <div style="flex: 1">
+                <p style="font-size: 16px">Meter height:</p>
+                <p style="font-size: 28px; color: #04AA6D">{mh} cm</p>
+            </div>
+            <div style="flex: 1">
+                <p style="font-size: 16px">Patient height:</p>
+                <p style="font-size: 28px; color: #04AA6D">{ph} cm</p>
+            </div>
+        </div>
+    </body>
+</html>
